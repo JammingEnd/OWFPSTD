@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03604fee36b67a84a81cc46e7fb44ba9, type: 3}
+  m_Name: revolver
+  m_EditorClassIdentifier: 
+  gunName: revolver
+  gunPrefab: {fileID: 7220361688138044912, guid: 1a97cb803bf4982438b899fa19ea535a, type: 3}
+  isAutomatic: 0
+  hitEffect: {fileID: 2986620225212184529, guid: bbc082d3b3a273e42af99d169dfaf1f6, type: 3}
+  minimunDamage: 40
+  maximumDamage: 80
+  maximumRange: 200
+  fireRate: 0
+  currentFR: 0
+  canfire: 1
